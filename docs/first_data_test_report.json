@@ -1,8 +1,8 @@
 {
   "test_name": "first_data_test",
-  "timestamp": "2026-09-22 23:46:19",
+  "timestamp": "2026-09-23 00:06:38",
   "episodes": 50,
-  "elapsed_seconds": 70.21,
+  "elapsed_seconds": 69.89,
   "summary": {
     "episodes": 50,
     "completion_rate": 0.0,
@@ -89,7 +89,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 10,
-      "elapsed_s": 0.726090291980654,
+      "elapsed_s": 0.7295577910263091,
       "success_rate": 0.0
     },
     {
@@ -101,7 +101,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 41,
-      "elapsed_s": 1.4069550840649754,
+      "elapsed_s": 1.4029892501421273,
       "success_rate": 0.3333333333333333
     },
     {
@@ -113,7 +113,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 12,
-      "elapsed_s": 0.7783534161280841,
+      "elapsed_s": 0.7747367501724511,
       "success_rate": 0.0
     },
     {
@@ -125,7 +125,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 79,
-      "elapsed_s": 2.468729415908456,
+      "elapsed_s": 2.446911667007953,
       "success_rate": 0.4
     },
     {
@@ -137,7 +137,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 10,
-      "elapsed_s": 0.772185374982655,
+      "elapsed_s": 0.7723189580719918,
       "success_rate": 0.5
     },
     {
@@ -149,7 +149,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 23,
-      "elapsed_s": 1.2471431251615286,
+      "elapsed_s": 1.2499501251149923,
       "success_rate": 0.3333333333333333
     },
     {
@@ -161,7 +161,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 28,
-      "elapsed_s": 1.3224184580612928,
+      "elapsed_s": 1.3127936669625342,
       "success_rate": 0.6666666666666666
     },
     {
@@ -173,7 +173,7 @@
       "total_thoughts": 12,
       "jev_calls": 4,
       "total_frames": 44,
-      "elapsed_s": 1.7915957500226796,
+      "elapsed_s": 1.7755614998750389,
       "success_rate": 0.25
     },
     {
@@ -185,7 +185,7 @@
       "total_thoughts": 3,
       "jev_calls": 1,
       "total_frames": 6,
-      "elapsed_s": 0.39320133393630385,
+      "elapsed_s": 0.3891515410505235,
       "success_rate": 0.0
     },
     {
@@ -197,7 +197,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 7,
-      "elapsed_s": 0.778194917133078,
+      "elapsed_s": 0.7778866249136627,
       "success_rate": 0.5
     },
     {
@@ -209,7 +209,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 7,
-      "elapsed_s": 0.7121647500898689,
+      "elapsed_s": 0.7150351670570672,
       "success_rate": 0.0
     },
     {
@@ -221,7 +221,7 @@
       "total_thoughts": 12,
       "jev_calls": 4,
       "total_frames": 41,
-      "elapsed_s": 1.747559499926865,
+      "elapsed_s": 1.7336104169953614,
       "success_rate": 0.5
     },
     {
@@ -233,7 +233,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 89,
-      "elapsed_s": 2.5199611249845475,
+      "elapsed_s": 2.509937416994944,
       "success_rate": 0.8
     },
     {
@@ -245,7 +245,7 @@
       "total_thoughts": 12,
       "jev_calls": 4,
       "total_frames": 57,
-      "elapsed_s": 1.872257666895166,
+      "elapsed_s": 1.8642564590554684,
       "success_rate": 0.5
     },
     {
@@ -257,7 +257,7 @@
       "total_thoughts": 12,
       "jev_calls": 4,
       "total_frames": 43,
-      "elapsed_s": 1.7817455411422998,
+      "elapsed_s": 1.7871716250665486,
       "success_rate": 0.5
     },
     {
@@ -269,7 +269,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 30,
-      "elapsed_s": 0.9675204581581056,
+      "elapsed_s": 0.9628627090714872,
       "success_rate": 0.0
     },
     {
@@ -281,7 +281,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 52,
-      "elapsed_s": 1.5594023340381682,
+      "elapsed_s": 1.5506539167836308,
       "success_rate": 0.6666666666666666
     },
     {
@@ -293,7 +293,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 30,
-      "elapsed_s": 0.9533787500113249,
+      "elapsed_s": 0.9385247090831399,
       "success_rate": 0.0
     },
     {
@@ -305,7 +305,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 86,
-      "elapsed_s": 2.5498536669183522,
+      "elapsed_s": 2.538108249893412,
       "success_rate": 0.6
     },
     {
@@ -317,7 +317,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 12,
-      "elapsed_s": 0.7739530419930816,
+      "elapsed_s": 0.7721854171250015,
       "success_rate": 0.5
     },
     {
@@ -329,7 +329,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 19,
-      "elapsed_s": 0.9143116250634193,
+      "elapsed_s": 0.9061656249687076,
       "success_rate": 0.5
     },
     {
@@ -341,7 +341,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 12,
-      "elapsed_s": 0.8194399171043187,
+      "elapsed_s": 0.8219751671422273,
       "success_rate": 0.5
     },
     {
@@ -353,7 +353,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 79,
-      "elapsed_s": 2.4770509579684585,
+      "elapsed_s": 2.459376791957766,
       "success_rate": 0.4
     },
     {
@@ -365,7 +365,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 69,
-      "elapsed_s": 2.3043557500932366,
+      "elapsed_s": 2.2897996669635177,
       "success_rate": 0.4
     },
     {
@@ -377,7 +377,7 @@
       "total_thoughts": 12,
       "jev_calls": 4,
       "total_frames": 44,
-      "elapsed_s": 1.7737632079515606,
+      "elapsed_s": 1.7636493749450892,
       "success_rate": 0.5
     },
     {
@@ -389,7 +389,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 16,
-      "elapsed_s": 0.850254749879241,
+      "elapsed_s": 0.8421699581667781,
       "success_rate": 0.5
     },
     {
@@ -401,7 +401,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 19,
-      "elapsed_s": 0.8232524581253529,
+      "elapsed_s": 0.8153626250568777,
       "success_rate": 0.0
     },
     {
@@ -413,7 +413,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 46,
-      "elapsed_s": 1.4814181250985712,
+      "elapsed_s": 1.4589019999839365,
       "success_rate": 0.6666666666666666
     },
     {
@@ -425,7 +425,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 8,
-      "elapsed_s": 0.710127541096881,
+      "elapsed_s": 0.7101484171580523,
       "success_rate": 0.0
     },
     {
@@ -437,7 +437,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 36,
-      "elapsed_s": 0.9793526250869036,
+      "elapsed_s": 0.9707595841027796,
       "success_rate": 0.0
     },
     {
@@ -449,7 +449,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 31,
-      "elapsed_s": 0.9898155000992119,
+      "elapsed_s": 0.9874737909995019,
       "success_rate": 0.0
     },
     {
@@ -461,7 +461,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 7,
-      "elapsed_s": 0.7426951250527054,
+      "elapsed_s": 0.7405676660127938,
       "success_rate": 0.0
     },
     {
@@ -473,7 +473,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 38,
-      "elapsed_s": 1.3628172921016812,
+      "elapsed_s": 1.3591729591134936,
       "success_rate": 0.3333333333333333
     },
     {
@@ -485,7 +485,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 10,
-      "elapsed_s": 0.7381004579365253,
+      "elapsed_s": 0.7329458340536803,
       "success_rate": 0.0
     },
     {
@@ -497,7 +497,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 63,
-      "elapsed_s": 2.3567118749488145,
+      "elapsed_s": 2.3458505829330534,
       "success_rate": 0.6
     },
     {
@@ -509,7 +509,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 44,
-      "elapsed_s": 1.4600180829875171,
+      "elapsed_s": 1.4559972081333399,
       "success_rate": 0.3333333333333333
     },
     {
@@ -521,7 +521,7 @@
       "total_thoughts": 12,
       "jev_calls": 4,
       "total_frames": 61,
-      "elapsed_s": 1.9378980409819633,
+      "elapsed_s": 1.9239517089445144,
       "success_rate": 0.75
     },
     {
@@ -533,7 +533,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 10,
-      "elapsed_s": 0.7625652919523418,
+      "elapsed_s": 0.758116542128846,
       "success_rate": 0.0
     },
     {
@@ -545,7 +545,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 12,
-      "elapsed_s": 0.7870593750849366,
+      "elapsed_s": 0.7828339170664549,
       "success_rate": 0.0
     },
     {
@@ -557,7 +557,7 @@
       "total_thoughts": 12,
       "jev_calls": 4,
       "total_frames": 51,
-      "elapsed_s": 1.8327814161311835,
+      "elapsed_s": 1.8166940410155803,
       "success_rate": 0.5
     },
     {
@@ -569,7 +569,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 31,
-      "elapsed_s": 1.2844415840227157,
+      "elapsed_s": 1.280374791007489,
       "success_rate": 0.3333333333333333
     },
     {
@@ -581,7 +581,7 @@
       "total_thoughts": 9,
       "jev_calls": 3,
       "total_frames": 46,
-      "elapsed_s": 1.4684085419867188,
+      "elapsed_s": 1.4659507919568568,
       "success_rate": 0.6666666666666666
     },
     {
@@ -593,7 +593,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 7,
-      "elapsed_s": 0.702860957942903,
+      "elapsed_s": 0.7040361249819398,
       "success_rate": 0.0
     },
     {
@@ -605,7 +605,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 79,
-      "elapsed_s": 2.442975957877934,
+      "elapsed_s": 2.428320499835536,
       "success_rate": 0.4
     },
     {
@@ -617,7 +617,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 20,
-      "elapsed_s": 0.8992587919346988,
+      "elapsed_s": 0.9013454590458423,
       "success_rate": 0.5
     },
     {
@@ -629,7 +629,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 65,
-      "elapsed_s": 2.3058948749676347,
+      "elapsed_s": 2.3135525840334594,
       "success_rate": 0.6
     },
     {
@@ -641,7 +641,7 @@
       "total_thoughts": 6,
       "jev_calls": 2,
       "total_frames": 17,
-      "elapsed_s": 0.8398425409104675,
+      "elapsed_s": 0.8326221250463277,
       "success_rate": 0.0
     },
     {
@@ -653,7 +653,7 @@
       "total_thoughts": 12,
       "jev_calls": 4,
       "total_frames": 85,
-      "elapsed_s": 2.1887345840223134,
+      "elapsed_s": 2.1850615409202874,
       "success_rate": 0.75
     },
     {
@@ -665,7 +665,7 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 75,
-      "elapsed_s": 2.4639843748882413,
+      "elapsed_s": 2.462018166203052,
       "success_rate": 0.4
     },
     {
@@ -677,15 +677,15 @@
       "total_thoughts": 15,
       "jev_calls": 5,
       "total_frames": 70,
-      "elapsed_s": 2.379854792030528,
+      "elapsed_s": 2.3657959159463644,
       "success_rate": 0.4
     }
   ],
   "recent_thoughts": [
     {
-      "text": "Hold on, let me think... Maybe Wave Dash Chain? Dash ready.",
+      "text": "Let me see... Maybe Wave Dash Chain? Dash ready.",
       "expression": "thinking",
-      "timestamp": 1790091977.476309,
+      "timestamp": 1790093196.375032,
       "context": {
         "phase": "thinking",
         "danger_prob": 0.44999999999999996,
@@ -694,9 +694,9 @@
       }
     },
     {
-      "text": "Let's do this!",
+      "text": "Here goes!",
       "expression": "intense",
-      "timestamp": 1790091977.790545,
+      "timestamp": 1790093196.687677,
       "context": {
         "phase": "executing",
         "script_id": "wave_dash_chain",
@@ -704,9 +704,9 @@
       }
     },
     {
-      "text": "Again, again. Wait, last time here I... (last time: dash_across_gap → dash_consumed_unexpectedly)",
+      "text": "So close! Let me try something different. (last time: dash_across_gap → dash_consumed_unexpectedly)",
       "expression": "frustrated",
-      "timestamp": 1790091977.8196769,
+      "timestamp": 1790093196.71591,
       "context": {
         "phase": "failure",
         "script_id": "wave_dash_chain",
@@ -716,7 +716,7 @@
     {
       "text": "What's ahead... Dangerous! Maybe Dash Across Gap?",
       "expression": "thinking",
-      "timestamp": 1790091977.850234,
+      "timestamp": 1790093196.745876,
       "context": {
         "phase": "thinking",
         "danger_prob": 0.6499999999999999,
@@ -725,9 +725,9 @@
       }
     },
     {
-      "text": "Focus...",
+      "text": "I've got this.",
       "expression": "panicked",
-      "timestamp": 1790091978.1817741,
+      "timestamp": 1790093197.0769222,
       "context": {
         "phase": "executing",
         "script_id": "dash_across_gap",
@@ -737,16 +737,16 @@
     {
       "text": "That worked!",
       "expression": "happy",
-      "timestamp": 1790091978.322904,
+      "timestamp": 1790093197.215328,
       "context": {
         "phase": "success",
         "script_id": "dash_across_gap"
       }
     },
     {
-      "text": "What's ahead... Dangerous! Clearly Simple Move Right.",
+      "text": "Hold on, let me think... Dangerous! Clearly Simple Move Right.",
       "expression": "thinking",
-      "timestamp": 1790091978.3379672,
+      "timestamp": 1790093197.2302349,
       "context": {
         "phase": "thinking",
         "danger_prob": 0.6499999999999999,
@@ -755,9 +755,9 @@
       }
     },
     {
-      "text": "Focus...",
+      "text": "Let's do this!",
       "expression": "panicked",
-      "timestamp": 1790091978.653234,
+      "timestamp": 1790093197.546417,
       "context": {
         "phase": "executing",
         "script_id": "simple_move_right",
@@ -765,18 +765,18 @@
       }
     },
     {
-      "text": "Nice!",
+      "text": "On to the next.",
       "expression": "happy",
-      "timestamp": 1790091978.9549718,
+      "timestamp": 1790093197.84721,
       "context": {
         "phase": "success",
         "script_id": "simple_move_right"
       }
     },
     {
-      "text": "What's ahead... Clearly Dash Across Gap. Dash ready.",
+      "text": "Hold on, let me think... Clearly Dash Across Gap. Dash ready.",
       "expression": "thinking",
-      "timestamp": 1790091978.9806058,
+      "timestamp": 1790093197.873226,
       "context": {
         "phase": "thinking",
         "danger_prob": 0.44999999999999996,
@@ -785,9 +785,9 @@
       }
     },
     {
-      "text": "Here goes!",
+      "text": "Focus...",
       "expression": "focused",
-      "timestamp": 1790091979.309547,
+      "timestamp": 1790093198.200259,
       "context": {
         "phase": "executing",
         "script_id": "dash_across_gap",
@@ -795,9 +795,9 @@
       }
     },
     {
-      "text": "No! This didn't work before... (last time: dash_across_gap → dash_consumed_unexpectedly)",
+      "text": "So close! This didn't work before... (last time: dash_across_gap → dash_consumed_unexpectedly)",
       "expression": "frustrated",
-      "timestamp": 1790091979.386888,
+      "timestamp": 1790093198.275724,
       "context": {
         "phase": "failure",
         "script_id": "dash_across_gap",
@@ -807,7 +807,7 @@
     {
       "text": "What's ahead... Dangerous! Clearly Dash Across Gap.",
       "expression": "thinking",
-      "timestamp": 1790091979.418089,
+      "timestamp": 1790093198.306066,
       "context": {
         "phase": "thinking",
         "danger_prob": 0.6499999999999999,
@@ -816,9 +816,9 @@
       }
     },
     {
-      "text": "Here goes!",
+      "text": "I've got this.",
       "expression": "panicked",
-      "timestamp": 1790091979.7499928,
+      "timestamp": 1790093198.637057,
       "context": {
         "phase": "executing",
         "script_id": "dash_across_gap",
@@ -826,9 +826,9 @@
       }
     },
     {
-      "text": "So close! Let me try something different. (last time: dash_across_gap → game_over)",
+      "text": "No! Let me try something different. (last time: dash_across_gap → game_over)",
       "expression": "frustrated",
-      "timestamp": 1790091979.844959,
+      "timestamp": 1790093198.729084,
       "context": {
         "phase": "failure",
         "script_id": "dash_across_gap",
