@@ -1,0 +1,43 @@
+name: Release N.E.K.O Plugin
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install numpy torch httpx pytest pytest-asyncio
+
+      - name: Run tests
+        run: python -m pytest tests/ -v
+
+      - name: Build .neko-plugin package
+        run: |
+          mkdir -p dist
+          tar czf dist/celeste_jev_rl.neko-plugin \
+            plugin.toml \
+            config.example.toml \
+            __init__.py \
+            core/ \
+            tests/
+          ls -la dist/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/celeste_jev_rl.neko-plugin
+          generate_release_notes: true

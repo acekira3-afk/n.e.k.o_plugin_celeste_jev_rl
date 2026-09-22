@@ -1,0 +1,29 @@
+# Jev API connection and plugin configuration
+# Copy to config.toml and fill in your values
+
+[jev]
+api_key = "your-jev-api-key-here"
+endpoint = "https://api.typesafe.ai/v1/systemone"
+model = "jev-latest"
+
+[game]
+target = "celeste_classic"  # "celeste_classic" or "celeste_full"
+rom_path = ""                # path to game or web URL
+fps = 60
+
+[dqn]
+learning_rate = 0.0001
+gamma = 0.99
+epsilon_start = 1.0
+epsilon_end = 0.01
+epsilon_decay = 0.995
+buffer_size = 10000
+batch_size = 32
+target_update = 10
+
+[experiment]
+mode = "compare"  # "jev_only" | "dqn_only" | "jev_shaped_dqn" | "jev_router_dqn"
+episodes = 1000
+log_interval = 10
+save_interval = 100
+output_dir = ""

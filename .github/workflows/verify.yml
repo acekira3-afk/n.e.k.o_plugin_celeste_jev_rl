@@ -1,0 +1,61 @@
+name: Verify N.E.K.O Plugin
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install dependencies
+        run: |
+          pip install numpy torch httpx pytest pytest-asyncio gymnasium
+
+      - name: Plugin structure check
+        run: |
+          echo "Checking plugin structure..."
+          test -f plugin.toml
+          test -f __init__.py
+          test -f config.example.toml
+          test -f tests/test_plugin.py
+          echo "All required files present."
+
+      - name: Run tests
+        run: |
+          python -m pytest tests/ -v --tb=short
+
+      - name: Check imports
+        run: |
+          python -c "from core.state_encoder import CelesteStateEncoder; print('state_encoder OK')"
+          python -c "from core.dqn_agent import DQNAgent; print('dqn_agent OK')"
+          python -c "from core.reward_shaper import JevRewardShaper; print('reward_shaper OK')"
+          python -c "from core.celeste_env import CelesteEnv; print('celeste_env OK')"
+          python -c "from core.script_library import ScriptLibrary; print('script_library OK')"
+          python -c "from core.script_executor import ScriptExecutor; print('script_executor OK')"
+          python -c "from core.personality import PersonalityLayer; print('personality OK')"
+          python -c "from core.jev_agent import JevSituationAgent; print('jev_agent OK')"
+          python -c "from core.experiment_runner import ThinkExecuteRunner; print('experiment_runner OK')"
+
+      - name: Build package artifact
+        run: |
+          mkdir -p dist
+          tar czf dist/celeste_jev_rl.tar.gz \
+            plugin.toml \
+            config.example.toml \
+            __init__.py \
+            core/ \
+            tests/
+          echo "Package built."

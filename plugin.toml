@@ -1,0 +1,52 @@
+[plugin]
+id = "celeste_jev_rl"
+version = "0.1.0"
+name = "Celeste Jev RL"
+description = "Jev 决策模型 + DQN 强化学习 + N.E.K.O 插件框架，用于蔚蓝闯关学习实验"
+author = ""
+license = "MIT"
+homepage = ""
+repository = ""
+keywords = ["jev", "dqn", "celeste", "reinforcement-learning", "game-ai"]
+categories = ["research", "experiment"]
+
+[plugin.entry]
+module = "__init__"
+class = "CelesteJevRLPlugin"
+
+[plugin.dependencies]
+python = ">=3.11"
+packages = [
+    "httpx>=0.27",
+    "numpy>=1.26",
+    "torch>=2.2",
+    "gymnasium>=0.29",
+]
+
+[plugin.config]
+[plugin.config.jev]
+api_key = { default = "", description = "Jev API key from TypeSafe AI" }
+endpoint = { default = "https://api.typesafe.ai/v1/systemone", description = "Jev API endpoint" }
+model = { default = "jev-latest", description = "Jev model version" }
+
+[plugin.config.game]
+target = { default = "celeste_classic", description = "Game target: celeste_classic or celeste_full" }
+rom_path = { default = "", description = "Path to Celeste game ROM or web URL" }
+fps = { default = 60, description = "Target game FPS" }
+
+[plugin.config.dqn]
+learning_rate = { default = 0.0001, description = "DQN learning rate" }
+gamma = { default = 0.99, description = "Discount factor" }
+epsilon_start = { default = 1.0, description = "Initial exploration rate" }
+epsilon_end = { default = 0.01, description = "Final exploration rate" }
+epsilon_decay = { default = 0.995, description = "Epsilon decay per episode" }
+buffer_size = { default = 10000, description = "Replay buffer size" }
+batch_size = { default = 32, description = "Training batch size" }
+target_update = { default = 10, description = "Target network update frequency (episodes)" }
+
+[plugin.config.experiment]
+mode = { default = "compare", description = "Experiment mode: jev_only, dqn_only, jev_shaped_dqn, jev_router_dqn" }
+episodes = { default = 1000, description = "Total training episodes" }
+log_interval = { default = 10, description = "Log every N episodes" }
+save_interval = { default = 100, description = "Save checkpoint every N episodes" }
+output_dir = { default = "", description = "Output directory for results" }
