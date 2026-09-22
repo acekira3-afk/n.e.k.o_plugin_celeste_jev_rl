@@ -1,0 +1,651 @@
+{
+  "saves_parsed": 3,
+  "maps_scanned": 27,
+  "total_levels": 232,
+  "total_entities": 489,
+  "training_samples": 259,
+  "save_summary": {
+    "save_count": 3,
+    "players": [
+      {
+        "name": "Z",
+        "deaths": 6781,
+        "jumps": 20166,
+        "dashes": 22340,
+        "strawberries": 93,
+        "unlocked_areas": 9,
+        "total_time_hours": 236.39019444444443
+      },
+      {
+        "name": "Climbers&czf",
+        "deaths": 1312,
+        "jumps": 5620,
+        "dashes": 4256,
+        "strawberries": 17,
+        "unlocked_areas": 5,
+        "total_time_hours": 45.52803055555555
+      },
+      {
+        "name": "Madeline",
+        "deaths": 375,
+        "jumps": 948,
+        "dashes": 725,
+        "strawberries": 8,
+        "unlocked_areas": 1,
+        "total_time_hours": 11.695480555555555
+      }
+    ],
+    "totals": {
+      "deaths": 8468,
+      "jumps": 26734,
+      "dashes": 27321,
+      "strawberries": 118
+    }
+  },
+  "map_summary": {
+    "map_count": 27,
+    "total_levels": 232,
+    "total_entities": 489,
+    "total_hazards": 106,
+    "total_mechanics": 98,
+    "total_collectibles": 16,
+    "avg_levels_per_map": 8.592592592592593,
+    "avg_entities_per_map": 18.11111111111111
+  },
+  "entity_distribution": {
+    "camera_offset_x": 27,
+    "camera_offset_y": 27,
+    "music": 27,
+    "parallax": 27,
+    "refill": 25,
+    "jump_thru": 24,
+    "spike_up": 24,
+    "spike_left": 22,
+    "spring": 19,
+    "summit": 19,
+    "touch_switch": 19,
+    "crystal_spinner": 19,
+    "switch_gate": 18,
+    "spike_right": 17,
+    "spike_down": 17,
+    "checkpoint": 17,
+    "crumble_block": 16,
+    "change_respawn_trigger": 16,
+    "dash_block": 12,
+    "bird": 11,
+    "wire": 9,
+    "zip_mover": 9,
+    "booster": 9,
+    "strawberry": 8,
+    "cassette": 8,
+    "swap_block": 8,
+    "event_trigger": 7,
+    "move_block": 6,
+    "big_spinner": 6,
+    "cobweb": 5,
+    "torch": 2,
+    "dream": 2,
+    "moon": 2,
+    "intro": 2,
+    "lightning": 1,
+    "starfield": 1,
+    "rain": 1
+  },
+  "situation_distribution": {
+    "spring_bounce": 19,
+    "touch_switch_puzzle": 19,
+    "spinner_field": 19,
+    "checkpoint_run": 17,
+    "crumble_platform": 16,
+    "spike_corridor": 15,
+    "dash_across_gap": 12,
+    "move_block_puzzle": 12,
+    "booster_section": 9,
+    "strawberry_hunt": 8,
+    "swap_block_puzzle": 8,
+    "simple_move": 2,
+    "lightning_dodge": 1
+  },
+  "difficulty_distribution": {
+    "easy": 9,
+    "hard": 3,
+    "medium": 15
+  },
+  "area_breakdown": [
+    {
+      "area_id": -1,
+      "area_name": "Unknown",
+      "map_name": "LostLevels",
+      "levels": 0,
+      "entities": 32,
+      "hazards": 6,
+      "difficulty": "medium",
+      "situations": [
+        "booster_section",
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "lightning_dodge",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "strawberry_hunt",
+        "swap_block_puzzle",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 0,
+      "player_deaths_b": 0,
+      "player_completed_a": false
+    },
+    {
+      "area_id": 0,
+      "area_name": "Prologue",
+      "map_name": "0-Intro",
+      "levels": 6,
+      "entities": 7,
+      "hazards": 0,
+      "difficulty": "easy",
+      "situations": [
+        "simple_move"
+      ],
+      "player_deaths_a": 1,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 1,
+      "area_name": "Forsaken City",
+      "map_name": "1-ForsakenCity",
+      "levels": 38,
+      "entities": 20,
+      "hazards": 4,
+      "difficulty": "hard",
+      "situations": [
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spring_bounce",
+        "strawberry_hunt"
+      ],
+      "player_deaths_a": 345,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 1,
+      "area_name": "Forsaken City",
+      "map_name": "1H-ForsakenCity",
+      "levels": 16,
+      "entities": 16,
+      "hazards": 4,
+      "difficulty": "medium",
+      "situations": [
+        "checkpoint_run",
+        "crumble_platform",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spring_bounce"
+      ],
+      "player_deaths_a": 345,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 1,
+      "area_name": "Forsaken City",
+      "map_name": "1X-ForsakenCity",
+      "levels": 3,
+      "entities": 15,
+      "hazards": 4,
+      "difficulty": "easy",
+      "situations": [
+        "move_block_puzzle",
+        "spike_corridor",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 345,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 2,
+      "area_name": "Old Site",
+      "map_name": "2-OldSite",
+      "levels": 45,
+      "entities": 23,
+      "hazards": 4,
+      "difficulty": "hard",
+      "situations": [
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spring_bounce",
+        "strawberry_hunt",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 222,
+      "player_deaths_b": 735,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 2,
+      "area_name": "Old Site",
+      "map_name": "2H-OldSite",
+      "levels": 17,
+      "entities": 16,
+      "hazards": 4,
+      "difficulty": "medium",
+      "situations": [
+        "checkpoint_run",
+        "spike_corridor",
+        "spring_bounce",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 222,
+      "player_deaths_b": 735,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 2,
+      "area_name": "Old Site",
+      "map_name": "2X-OldSite",
+      "levels": 3,
+      "entities": 14,
+      "hazards": 4,
+      "difficulty": "easy",
+      "situations": [
+        "spike_corridor",
+        "spring_bounce",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 222,
+      "player_deaths_b": 735,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 3,
+      "area_name": "Celestial Resort",
+      "map_name": "3-CelestialResort",
+      "levels": 13,
+      "entities": 20,
+      "hazards": 4,
+      "difficulty": "medium",
+      "situations": [
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "spinner_field",
+        "spring_bounce",
+        "strawberry_hunt",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 981,
+      "player_deaths_b": 250,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 3,
+      "area_name": "Celestial Resort",
+      "map_name": "3H-CelestialResort",
+      "levels": 24,
+      "entities": 17,
+      "hazards": 4,
+      "difficulty": "medium",
+      "situations": [
+        "checkpoint_run",
+        "dash_across_gap",
+        "spinner_field",
+        "spring_bounce",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 981,
+      "player_deaths_b": 250,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 3,
+      "area_name": "Celestial Resort",
+      "map_name": "3X-CelestialResort",
+      "levels": 3,
+      "entities": 12,
+      "hazards": 3,
+      "difficulty": "easy",
+      "situations": [
+        "spinner_field",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 981,
+      "player_deaths_b": 250,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 4,
+      "area_name": "Golden Ridge",
+      "map_name": "4-GoldenRidge",
+      "levels": 0,
+      "entities": 24,
+      "hazards": 5,
+      "difficulty": "medium",
+      "situations": [
+        "booster_section",
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "strawberry_hunt",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 734,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 4,
+      "area_name": "Golden Ridge",
+      "map_name": "4H-GoldenRidge",
+      "levels": 1,
+      "entities": 20,
+      "hazards": 5,
+      "difficulty": "medium",
+      "situations": [
+        "booster_section",
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 734,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 4,
+      "area_name": "Golden Ridge",
+      "map_name": "4X-GoldenRidge",
+      "levels": 3,
+      "entities": 14,
+      "hazards": 4,
+      "difficulty": "medium",
+      "situations": [
+        "booster_section",
+        "crumble_platform",
+        "move_block_puzzle",
+        "spinner_field"
+      ],
+      "player_deaths_a": 734,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 5,
+      "area_name": "Mirror Temple",
+      "map_name": "5-MirrorTemple",
+      "levels": 1,
+      "entities": 26,
+      "hazards": 5,
+      "difficulty": "medium",
+      "situations": [
+        "booster_section",
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "strawberry_hunt",
+        "swap_block_puzzle",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 643,
+      "player_deaths_b": 250,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 5,
+      "area_name": "Mirror Temple",
+      "map_name": "5H-MirrorTemple",
+      "levels": 1,
+      "entities": 21,
+      "hazards": 5,
+      "difficulty": "medium",
+      "situations": [
+        "booster_section",
+        "checkpoint_run",
+        "crumble_platform",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "swap_block_puzzle",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 643,
+      "player_deaths_b": 250,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 5,
+      "area_name": "Mirror Temple",
+      "map_name": "5X-MirrorTemple",
+      "levels": 3,
+      "entities": 9,
+      "hazards": 1,
+      "difficulty": "easy",
+      "situations": [
+        "booster_section",
+        "spinner_field",
+        "swap_block_puzzle"
+      ],
+      "player_deaths_a": 643,
+      "player_deaths_b": 250,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 6,
+      "area_name": "Reflection",
+      "map_name": "6-Reflection",
+      "levels": 33,
+      "entities": 21,
+      "hazards": 3,
+      "difficulty": "hard",
+      "situations": [
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "spinner_field",
+        "spring_bounce",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 737,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 6,
+      "area_name": "Reflection",
+      "map_name": "6H-Reflection",
+      "levels": 0,
+      "entities": 16,
+      "hazards": 3,
+      "difficulty": "easy",
+      "situations": [
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "spinner_field",
+        "spring_bounce",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 737,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 6,
+      "area_name": "Reflection",
+      "map_name": "6X-Reflection",
+      "levels": 3,
+      "entities": 12,
+      "hazards": 4,
+      "difficulty": "easy",
+      "situations": [
+        "spinner_field"
+      ],
+      "player_deaths_a": 737,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 7,
+      "area_name": "Summit",
+      "map_name": "7-Summit",
+      "levels": 0,
+      "entities": 29,
+      "hazards": 5,
+      "difficulty": "medium",
+      "situations": [
+        "booster_section",
+        "checkpoint_run",
+        "crumble_platform",
+        "dash_across_gap",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "strawberry_hunt",
+        "swap_block_puzzle",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 1400,
+      "player_deaths_b": 463,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 7,
+      "area_name": "Summit",
+      "map_name": "7H-Summit",
+      "levels": 0,
+      "entities": 24,
+      "hazards": 5,
+      "difficulty": "medium",
+      "situations": [
+        "booster_section",
+        "checkpoint_run",
+        "crumble_platform",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "swap_block_puzzle",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 1400,
+      "player_deaths_b": 463,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 7,
+      "area_name": "Summit",
+      "map_name": "7X-Summit",
+      "levels": 3,
+      "entities": 14,
+      "hazards": 3,
+      "difficulty": "easy",
+      "situations": [
+        "spinner_field",
+        "spring_bounce",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 1400,
+      "player_deaths_b": 463,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 8,
+      "area_name": "Epilogue",
+      "map_name": "8-Epilogue",
+      "levels": 4,
+      "entities": 7,
+      "hazards": 0,
+      "difficulty": "easy",
+      "situations": [
+        "simple_move"
+      ],
+      "player_deaths_a": 0,
+      "player_deaths_b": 0,
+      "player_completed_a": true
+    },
+    {
+      "area_id": 9,
+      "area_name": "Core",
+      "map_name": "9-Core",
+      "levels": 5,
+      "entities": 23,
+      "hazards": 6,
+      "difficulty": "medium",
+      "situations": [
+        "checkpoint_run",
+        "dash_across_gap",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "strawberry_hunt",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 20,
+      "player_deaths_b": 0,
+      "player_completed_a": false
+    },
+    {
+      "area_id": 9,
+      "area_name": "Core",
+      "map_name": "9H-Core",
+      "levels": 3,
+      "entities": 22,
+      "hazards": 6,
+      "difficulty": "medium",
+      "situations": [
+        "checkpoint_run",
+        "crumble_platform",
+        "move_block_puzzle",
+        "spike_corridor",
+        "spinner_field",
+        "spring_bounce",
+        "swap_block_puzzle",
+        "touch_switch_puzzle"
+      ],
+      "player_deaths_a": 20,
+      "player_deaths_b": 0,
+      "player_completed_a": false
+    },
+    {
+      "area_id": 9,
+      "area_name": "Core",
+      "map_name": "9X-Core",
+      "levels": 4,
+      "entities": 15,
+      "hazards": 5,
+      "difficulty": "medium",
+      "situations": [
+        "crumble_platform",
+        "move_block_puzzle",
+        "spinner_field",
+        "swap_block_puzzle"
+      ],
+      "player_deaths_a": 20,
+      "player_deaths_b": 0,
+      "player_completed_a": false
+    }
+  ]
+}

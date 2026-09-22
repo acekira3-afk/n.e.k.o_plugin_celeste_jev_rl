@@ -1,0 +1,1458 @@
+{
+  "test_name": "real_data_training_test",
+  "timestamp": "2026-09-23 00:22:33",
+  "episodes": 100,
+  "data_source": "real_celeste_game_files",
+  "training_samples_loaded": 259,
+  "elapsed_seconds": 82.79,
+  "summary": {
+    "episodes": 100,
+    "completion_rate": 0.0,
+    "avg_scripts_per_episode": 1.87,
+    "avg_success_rate": 0.14666666666666667,
+    "avg_thoughts_per_episode": 5.61,
+    "total_jev_calls": 187,
+    "avg_jev_calls_per_episode": 1.87,
+    "script_stats": {
+      "simple_move_right": {
+        "uses": 4,
+        "successes": 4,
+        "success_rate": 1.0
+      },
+      "dash_across_gap": {
+        "uses": 51,
+        "successes": 17,
+        "success_rate": 0.3333333333333333
+      },
+      "wall_jump_climb": {
+        "uses": 0,
+        "successes": 0,
+        "success_rate": 0
+      },
+      "spike_corridor_wait": {
+        "uses": 0,
+        "successes": 0,
+        "success_rate": 0
+      },
+      "wave_dash_chain": {
+        "uses": 14,
+        "successes": 0,
+        "success_rate": 0.0
+      },
+      "ceiling_dash_traverse": {
+        "uses": 0,
+        "successes": 0,
+        "success_rate": 0
+      },
+      "strawberry_collect": {
+        "uses": 0,
+        "successes": 0,
+        "success_rate": 0
+      },
+      "rest_and_recover": {
+        "uses": 0,
+        "successes": 0,
+        "success_rate": 0
+      },
+      "hyper_jump": {
+        "uses": 18,
+        "successes": 18,
+        "success_rate": 1.0
+      },
+      "backtrack_left": {
+        "uses": 0,
+        "successes": 0,
+        "success_rate": 0
+      }
+    },
+    "personality_stats": {
+      "current_expression": "frustrated",
+      "total_deaths": 148,
+      "total_successes": 39,
+      "position_memories": 15,
+      "total_thoughts": 157,
+      "episodes_logged": 100
+    },
+    "executor_stats": {
+      "total_scripts_run": 187,
+      "total_frames_executed": 1904,
+      "total_interrupts": 48,
+      "interrupt_rate": 0.25668449197860965
+    },
+    "last_10_completion": 0.0
+  },
+  "episode_metrics": [
+    {
+      "episode": 0,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 32,
+      "elapsed_s": 0.9592827090527862,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 1,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 22,
+      "elapsed_s": 0.9009066671133041,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 2,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 7,
+      "elapsed_s": 0.4204451250843704,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 3,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 33,
+      "elapsed_s": 1.0309402500279248,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 4,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 11,
+      "elapsed_s": 0.7757591670379043,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 5,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 31,
+      "elapsed_s": 1.3495160420425236,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 6,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 27,
+      "elapsed_s": 0.9210512081626803,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 7,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 15,
+      "elapsed_s": 0.8331441248301417,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 8,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 2,
+      "scripts_interrupted": 0,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 29,
+      "elapsed_s": 1.302384665934369,
+      "success_rate": 0.6666666666666666
+    },
+    {
+      "episode": 9,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 13,
+      "elapsed_s": 0.8441570831928402,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 10,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 28,
+      "elapsed_s": 0.9524627081118524,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 11,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 19,
+      "elapsed_s": 0.8574913328047842,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 12,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 27,
+      "elapsed_s": 1.2462764999363571,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 13,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 23,
+      "elapsed_s": 1.2523361661005765,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 14,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 17,
+      "elapsed_s": 0.8480229999404401,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 15,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 37,
+      "elapsed_s": 1.0266829589381814,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 16,
+      "completed": false,
+      "scripts_executed": 4,
+      "scripts_succeeded": 3,
+      "scripts_interrupted": 0,
+      "total_thoughts": 12,
+      "jev_calls": 4,
+      "total_frames": 46,
+      "elapsed_s": 1.8163987919688225,
+      "success_rate": 0.75
+    },
+    {
+      "episode": 17,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 20,
+      "elapsed_s": 0.8944112081080675,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 18,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 2,
+      "scripts_interrupted": 0,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 40,
+      "elapsed_s": 1.4283887499477714,
+      "success_rate": 0.6666666666666666
+    },
+    {
+      "episode": 19,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 12,
+      "elapsed_s": 0.7714005410671234,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 20,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 26,
+      "elapsed_s": 0.6191925830207765,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 21,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 8,
+      "elapsed_s": 0.4176757500972599,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 22,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 37,
+      "elapsed_s": 1.0726214998867363,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 23,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 22,
+      "elapsed_s": 0.9054348331410438,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 24,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 21,
+      "elapsed_s": 0.8624194590374827,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 25,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 19,
+      "elapsed_s": 0.9003200000151992,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 26,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 25,
+      "elapsed_s": 1.2854425830300897,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 27,
+      "completed": false,
+      "scripts_executed": 4,
+      "scripts_succeeded": 2,
+      "scripts_interrupted": 1,
+      "total_thoughts": 12,
+      "jev_calls": 4,
+      "total_frames": 39,
+      "elapsed_s": 1.733712375164032,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 28,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 15,
+      "elapsed_s": 0.8014660829212517,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 29,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 9,
+      "elapsed_s": 0.44401829200796783,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 30,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 27,
+      "elapsed_s": 0.9932629999238998,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 31,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 2,
+      "scripts_interrupted": 0,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 42,
+      "elapsed_s": 1.4406646250281483,
+      "success_rate": 0.6666666666666666
+    },
+    {
+      "episode": 32,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 4,
+      "elapsed_s": 0.35494337510317564,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 33,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 28,
+      "elapsed_s": 0.9368482502177358,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 34,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 7,
+      "elapsed_s": 0.4277103340718895,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 35,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 19,
+      "elapsed_s": 0.8709133751690388,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 36,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 9,
+      "elapsed_s": 0.4484296669252217,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 37,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 25,
+      "elapsed_s": 1.259489833144471,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 38,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 33,
+      "elapsed_s": 1.0550928339362144,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 39,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 36,
+      "elapsed_s": 1.075983125017956,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 40,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 11,
+      "elapsed_s": 0.7616882501170039,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 41,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 7,
+      "elapsed_s": 0.7632780838757753,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 42,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 6,
+      "elapsed_s": 0.6896019589621574,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 43,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 12,
+      "elapsed_s": 0.8154250828083605,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 44,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 15,
+      "elapsed_s": 0.8395468750968575,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 45,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 21,
+      "elapsed_s": 0.8939601660240442,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 46,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 6,
+      "elapsed_s": 0.3777869581244886,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 47,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 16,
+      "elapsed_s": 0.8271273749414831,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 48,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 28,
+      "elapsed_s": 0.6199137920048088,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 49,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 5,
+      "elapsed_s": 0.3776614579837769,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 50,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 4,
+      "elapsed_s": 0.39311554096639156,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 51,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 4,
+      "elapsed_s": 0.38235750002786517,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 52,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 22,
+      "elapsed_s": 0.5475763329304755,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 53,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 39,
+      "elapsed_s": 1.0573086249642074,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 54,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 11,
+      "elapsed_s": 0.8079109168611467,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 55,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 10,
+      "elapsed_s": 0.7994946669787169,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 56,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 12,
+      "elapsed_s": 0.8151597080286592,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 57,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 23,
+      "elapsed_s": 0.901764125097543,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 58,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 9,
+      "elapsed_s": 0.45731833297759295,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 59,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 10,
+      "elapsed_s": 0.7904074999969453,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 60,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 30,
+      "elapsed_s": 1.309655874967575,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 61,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 7,
+      "elapsed_s": 0.7680167909711599,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 62,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 27,
+      "elapsed_s": 0.5798318330198526,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 63,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 6,
+      "elapsed_s": 0.4196109171025455,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 64,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 26,
+      "elapsed_s": 0.615754459053278,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 65,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 38,
+      "elapsed_s": 1.070904792053625,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 66,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 16,
+      "elapsed_s": 0.8521973330061883,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 67,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 11,
+      "elapsed_s": 0.7899982500821352,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 68,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 4,
+      "elapsed_s": 0.3920571662019938,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 69,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 14,
+      "elapsed_s": 0.7920410830993205,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 70,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 9,
+      "elapsed_s": 0.4452060831245035,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 71,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 23,
+      "elapsed_s": 0.9039562919642776,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 72,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 32,
+      "elapsed_s": 1.3550906251184642,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 73,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 18,
+      "elapsed_s": 0.4941123342141509,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 74,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 4,
+      "elapsed_s": 0.3996698330156505,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 75,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 23,
+      "elapsed_s": 0.9043047078885138,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 76,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 25,
+      "elapsed_s": 0.5680325829889625,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 77,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 8,
+      "elapsed_s": 0.7475210002157837,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 78,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 17,
+      "elapsed_s": 0.8880641250871122,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 79,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 2,
+      "scripts_interrupted": 0,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 26,
+      "elapsed_s": 1.313355959020555,
+      "success_rate": 0.6666666666666666
+    },
+    {
+      "episode": 80,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 30,
+      "elapsed_s": 1.320135165937245,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 81,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 31,
+      "elapsed_s": 1.0324586669448763,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 82,
+      "completed": false,
+      "scripts_executed": 4,
+      "scripts_succeeded": 3,
+      "scripts_interrupted": 0,
+      "total_thoughts": 12,
+      "jev_calls": 4,
+      "total_frames": 37,
+      "elapsed_s": 1.8343893748242408,
+      "success_rate": 0.75
+    },
+    {
+      "episode": 83,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 4,
+      "elapsed_s": 0.40344958286732435,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 84,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 18,
+      "elapsed_s": 0.8637916250154376,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 85,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 5,
+      "elapsed_s": 0.3705240411218256,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 86,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 9,
+      "elapsed_s": 0.4215746659319848,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 87,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 17,
+      "elapsed_s": 0.501915792003274,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 88,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 5,
+      "elapsed_s": 0.3875469171907753,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 89,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 0,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 12,
+      "elapsed_s": 0.785460416926071,
+      "success_rate": 0.5
+    },
+    {
+      "episode": 90,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 25,
+      "elapsed_s": 0.5689101670868695,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 91,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 19,
+      "elapsed_s": 0.8626246249768883,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 92,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 10,
+      "elapsed_s": 0.8100742078386247,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 93,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 8,
+      "elapsed_s": 0.42302595800720155,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 94,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 7,
+      "elapsed_s": 0.4022148330695927,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 95,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 32,
+      "elapsed_s": 1.0297431251965463,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 96,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 15,
+      "elapsed_s": 0.4639561658259481,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 97,
+      "completed": false,
+      "scripts_executed": 1,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 0,
+      "total_thoughts": 3,
+      "jev_calls": 1,
+      "total_frames": 4,
+      "elapsed_s": 0.3838992500677705,
+      "success_rate": 0.0
+    },
+    {
+      "episode": 98,
+      "completed": false,
+      "scripts_executed": 3,
+      "scripts_succeeded": 1,
+      "scripts_interrupted": 1,
+      "total_thoughts": 9,
+      "jev_calls": 3,
+      "total_frames": 31,
+      "elapsed_s": 1.2960973330773413,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "episode": 99,
+      "completed": false,
+      "scripts_executed": 2,
+      "scripts_succeeded": 0,
+      "scripts_interrupted": 1,
+      "total_thoughts": 6,
+      "jev_calls": 2,
+      "total_frames": 10,
+      "elapsed_s": 0.7499880420509726,
+      "success_rate": 0.0
+    }
+  ],
+  "recent_thoughts": [
+    {
+      "text": "Let me see... Maybe Dash Across Gap? Dash ready.",
+      "expression": "thinking",
+      "timestamp": 1790094151.699832,
+      "context": {
+        "phase": "thinking",
+        "danger_prob": 0.44999999999999996,
+        "confidence": 3,
+        "situation": "dash_across_gap"
+      }
+    },
+    {
+      "text": "Here goes!",
+      "expression": "focused",
+      "timestamp": 1790094152.011183,
+      "context": {
+        "phase": "executing",
+        "script_id": "dash_across_gap",
+        "difficulty": "normal"
+      }
+    },
+    {
+      "text": "That didn't work... Let me try something different. (last time: dash_across_gap → game_over)",
+      "expression": "frustrated",
+      "timestamp": 1790094152.089749,
+      "context": {
+        "phase": "failure",
+        "script_id": "dash_across_gap",
+        "reason": "dash_consumed_unexpectedly"
+      }
+    },
+    {
+      "text": "Hold on, let me think... Dangerous! Clearly Dash Across Gap.",
+      "expression": "thinking",
+      "timestamp": 1790094152.108299,
+      "context": {
+        "phase": "thinking",
+        "danger_prob": 0.6499999999999999,
+        "confidence": 4,
+        "situation": "dash_across_gap"
+      }
+    },
+    {
+      "text": "Focus...",
+      "expression": "panicked",
+      "timestamp": 1790094152.428003,
+      "context": {
+        "phase": "executing",
+        "script_id": "dash_across_gap",
+        "difficulty": "normal"
+      }
+    },
+    {
+      "text": "That worked!",
+      "expression": "happy",
+      "timestamp": 1790094152.579264,
+      "context": {
+        "phase": "success",
+        "script_id": "dash_across_gap"
+      }
+    },
+    {
+      "text": "What's ahead... Dangerous! Maybe Dash Across Gap? Almost there!",
+      "expression": "thinking",
+      "timestamp": 1790094152.599332,
+      "context": {
+        "phase": "thinking",
+        "danger_prob": 0.6499999999999999,
+        "confidence": 3,
+        "situation": "dash_across_gap"
+      }
+    },
+    {
+      "text": "Focus...",
+      "expression": "panicked",
+      "timestamp": 1790094152.923243,
+      "context": {
+        "phase": "executing",
+        "script_id": "dash_across_gap",
+        "difficulty": "normal"
+      }
+    },
+    {
+      "text": "That didn't work... Wait, last time here I... (last time: simple_move_right → game_over)",
+      "expression": "frustrated",
+      "timestamp": 1790094152.9848828,
+      "context": {
+        "phase": "failure",
+        "script_id": "dash_across_gap",
+        "reason": "game_over"
+      }
+    },
+    {
+      "text": "What's ahead... Maybe Dash Across Gap? Dash ready.",
+      "expression": "thinking",
+      "timestamp": 1790094152.997741,
+      "context": {
+        "phase": "thinking",
+        "danger_prob": 0.15,
+        "confidence": 2,
+        "situation": "dash_across_gap"
+      }
+    },
+    {
+      "text": "Here goes!",
+      "expression": "focused",
+      "timestamp": 1790094153.3111382,
+      "context": {
+        "phase": "executing",
+        "script_id": "dash_across_gap",
+        "difficulty": "normal"
+      }
+    },
+    {
+      "text": "So close! Let me try something different. (last time: dash_across_gap → dash_consumed_unexpectedly)",
+      "expression": "frustrated",
+      "timestamp": 1790094153.395185,
+      "context": {
+        "phase": "failure",
+        "script_id": "dash_across_gap",
+        "reason": "dash_consumed_unexpectedly"
+      }
+    },
+    {
+      "text": "Let me see... Maybe Simple Move Right?",
+      "expression": "thinking",
+      "timestamp": 1790094153.414809,
+      "context": {
+        "phase": "thinking",
+        "danger_prob": 0.35,
+        "confidence": 2,
+        "situation": "simple_move_right"
+      }
+    },
+    {
+      "text": "Let's do this!",
+      "expression": "neutral",
+      "timestamp": 1790094153.7353039,
+      "context": {
+        "phase": "executing",
+        "script_id": "simple_move_right",
+        "difficulty": "easy"
+      }
+    },
+    {
+      "text": "Again, again. Let me try something different. (last time: simple_move_right → game_over)",
+      "expression": "frustrated",
+      "timestamp": 1790094153.735359,
+      "context": {
+        "phase": "failure",
+        "script_id": "simple_move_right",
+        "reason": "game_over"
+      }
+    }
+  ],
+  "jev_stats": {
+    "total_calls": 187,
+    "avg_latency_ms": 210.8916307314876,
+    "est_cost_usd": 0.036278,
+    "situation_distribution": {
+      "dash_across_gap": 91,
+      "simple_move_right": 58,
+      "wave_dash_chain": 18,
+      "hyper_jump": 20
+    },
+    "difficulty_distribution": {
+      "medium": 63,
+      "hard": 53,
+      "easy": 71
+    }
+  }
+}
