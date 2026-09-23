@@ -1,5 +1,29 @@
 # 开发日志
 
+## 2026-09-23 — 真实游戏数据提取 + 交接包
+
+### 今日完成（第三阶段）
+
+1. 从蔚蓝 Steam 版提取真实游戏数据：
+   - 27 个 .bin 地图文件解析（232 关卡，489 实体）
+   - 3 个 .celeste 存档解析（8,468 死亡，27,321 冲刺，118 草莓）
+   - 259 个训练样本生成
+2. 使用真实数据跑 100 集训练测试：
+   - 成功率 14.7%（vs mock 34%，真实难度更高）
+   - 13 种情境分类全部覆盖
+   - 难度分级死亡概率验证有效
+3. 生成项目交接包文档 `docs/handover.md`
+
+### 数据文件
+
+- `data/training/training_samples.json` — 259 个训练样本
+- `data/training/map_data.json` — 27 个地图解析数据
+- `data/training/save_data.json` — 3 个存档数据
+- `data/training/summary.json` — 数据摘要
+- `docs/real_data_training_report.json` — 训练报告
+
+---
+
 ## 2026-09-23 — 数据测试（50集 + 100集）
 
 ### 今日完成
